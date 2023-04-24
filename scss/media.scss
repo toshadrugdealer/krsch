@@ -1,37 +1,73 @@
-@media screen and (max-width: 1440px) {
+@media (max-width: 1920px) {
   .box-home {
-    width: 1440px;
+    width: 100%;
+    .box-home_icons {
+      width: 100%;
+    }
+  }
+  .box_answers {
+    width: 100%;
+    .price {
+      width: 100%;
+    }
+  }
+  .cubes {
+    width: 100%;
+  }
+  .checking_general {
+    width: 100%;
+  }
+  .block-responses {
+    width: 100%;
+  }
+  .percent {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  .solidLabel {
+    width: 100%;
+  }
+}
+@media (max-width: 1440px) {
+  .box-home {
     nav {
-      width: 1204px;
+      width: 85%;
       .navmobile,
       .navmobile2 {
         display: none;
       }
     }
     .box-home_content {
-      width: 1204px;
-      .box-home-content_text {
-        margin-top: 40px;
+      width: 85%;
+      img {
+        width: 70%;
+        height: 70%;
       }
     }
     .box-home_icons {
-      width: 1440px;
+      width: 100%;
+      .box-home-icons_img {
+        display: flex;
+        justify-content: space-evenly;
+      }
     }
   }
   .box_answers {
-    width: 1440px;
+    width: 100%;
     .price {
-      width: 1440px;
+      width: 100%;
     }
   }
   .cubes {
-    width: 1440px;
+    width: 100%;
   }
   .checking_general {
-    width: 1440px;
+    width: 100%;
   }
   .percent {
-    width: 1440px;
+    width: 100%;
 
     .percent-text {
       h3 {
@@ -43,10 +79,10 @@
     }
   }
   footer {
-    width: 1440px;
+    width: 100%;
   }
   .solidLabel {
-    width: 1440px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1024px) {

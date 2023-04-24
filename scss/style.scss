@@ -89,7 +89,7 @@
           color: rgba(48, 48, 48, 1);
         }
       }
-      h4 {
+      p {
         font-size: 16px;
         font-weight: 500;
         line-height: 26px;
@@ -112,6 +112,10 @@
           background-image: url(/img/Не\ подтвержден\ 70238.crdownload.svg);
         }
       }
+      img {
+        width: 705px;
+        height: 551px;
+      }
     }
   }
   .box-home_icons {
@@ -119,7 +123,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    background-image: url(/img/Волна\ под\ маркетплейсы.svg);
+    background-image: url(/img/Волна\ под\ маркетплейсы.svg);
     background-size: 1920px;
     background-repeat: no-repeat;
     width: 1920px;
@@ -180,7 +184,7 @@
       font-weight: 700;
       line-height: 32px;
     }
-    h4 {
+    p {
       margin-top: 20px;
       font-size: 16px;
       font-weight: 500;
@@ -257,10 +261,10 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
-    h4 {
+    p {
       margin-top: 30px;
       text-align: center;
-      width: 260px;
+      // width: 260px;
       font-size: 16px;
       font-weight: 500;
       color: rgba(49, 101, 148, 1);
@@ -306,9 +310,8 @@
         position: relative;
         width: 500px;
       }
-      h4 {
+      p {
         display: flex;
-        width: 416px;
         color: rgba(88, 88, 88, 1);
         font-size: 16px;
         font-weight: 500;
@@ -338,7 +341,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1285px;
+  width: 1920px;
   height: 980px;
   .header-responses {
     width: 551px;
@@ -355,7 +358,7 @@
         content: url(/img/tck.svg);
       }
     }
-    h3 {
+    p {
       font-size: 20px;
       font-weight: 700;
       margin-top: 24px;
@@ -376,9 +379,8 @@
       height: 228px;
       grid-template-rows: repeat(4, 90px);
       grid-template-columns: repeat(2, 600px);
-      h4 {
+      p {
         margin-left: 50px;
-        width: 400px;
         font-size: 16px;
         font-weight: 700;
         color: rgba(88, 88, 88, 1);
@@ -399,8 +401,7 @@
       margin-top: 50px;
       grid-template-rows: repeat(4, 70px);
       grid-template-columns: repeat(2, 600px);
-      h4 {
-        width: 540px;
+      p {
         margin-left: 50px;
         font-size: 16px;
         font-weight: 700;
@@ -459,8 +460,7 @@
       position: absolute;
       left: -70px;
     }
-    h3 {
-      width: 678px;
+    p {
       font-size: 28px;
       font-weight: 700;
       color: rgba(49, 101, 148, 1);
@@ -515,10 +515,9 @@ footer {
         font-weight: 700;
         color: rgba(71, 167, 227, 1);
       }
-      h4 {
+      p {
         margin-top: 20px;
         margin-bottom: 20px;
-        width: 308px;
         font-size: 16px;
         font-weight: 500;
         color: rgba(88, 88, 88, 1);
