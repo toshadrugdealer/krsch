@@ -1,0 +1,38 @@
+@mixin btnOsn {
+  width: 366px;
+  height: 92px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(180deg, #ffa96b -21.43%, #ee7a28 100%);
+  border: none;
+  border-radius: 10px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+@mixin backgroundhome {
+  background: linear-gradient(
+    180deg,
+    rgba(172, 216, 239, 0.5) -2.24%,
+    rgba(245, 250, 255, 0) 78.75%
+  );
+}
+@mixin column-centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@mixin row-centre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
